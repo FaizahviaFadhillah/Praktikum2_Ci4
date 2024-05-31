@@ -1,0 +1,13 @@
+CRITICAL - 2024-03-17 07:17:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('template/header', null, true)
+ 3 APPPATH\Views\artikel\index.php(1): CodeIgniter\View\View->include('template/header')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Lab12_ci\\ci4\\app\\Views\\artikel\\index.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('artikel/index', [], true)
+ 7 APPPATH\Controllers\Artikel.php(14): view('artikel/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Artikel->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
